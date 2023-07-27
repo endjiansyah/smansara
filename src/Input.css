@@ -148,94 +148,94 @@
     }
 
 
-    /* community */
-    #community{
-       @apply bg-[linear-gradient(0deg,_rgba(241,_246,_253,_0)_1.63%,_#F1F6FD_20.5%,_#F1F6FD_58.57%,_#FFFFFF_100%)] pt-[120px] lg:pb-20 lg:mb-[46px]
+    /* pengumuman */
+    #pengumuman{
+       @apply bg-[linear-gradient(0deg,_rgba(241,_246,_253,_0)_1.63%,_#F1F6FD_20.5%,_#F1F6FD_58.57%,_#FFFFFF_100%)] pt-[120px] lg:pb-20
     }
 
-    #community .title{
+    #pengumuman .title{
         @apply text-center
     }
 
-    #community .title h4{
+    #pengumuman .title h4{
         @apply blueh4
     }
 
-    #community .title p{
+    #pengumuman .title p{
         @apply par-a mx-auto max-w-[421px] mb-8
     }
 
-    #community .title h2{
+    #pengumuman .title h2{
         @apply title-b mt-[9px] mb-[19px]
     }
 
-    #community .card-box{
+    #pengumuman .card-box{
         @apply flex flex-wrap gap-3 md:gap-11 justify-center
     }
 
-    #community .card{
+    #pengumuman .card{
         @apply p-2 lg:py-7 lg:px-4 flex w-full bg-white md:w-[522px] h-auto rounded-[14px] shadow-[14px_22px_52px_-12px_rgba(127,_127,_127,_0.13)] items-start hover:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] flex-wrap justify-center  md:justify-between md:flex-nowrap
     }
 
-    #community .text-card{
+    #pengumuman .text-card{
         @apply mt-[6px] flex flex-col gap-[14px]
         justify-center md:justify-start text-center md:text-left
     }
 
-    #community .text-card h1{
+    #pengumuman .text-card h1{
         @apply justify-center md:justify-start title-c
     }
 
-    #community .text-card p{
+    #pengumuman .text-card p{
         @apply text-secondary
     }
 
-    #community .text-card .date{
+    #pengumuman .text-card .date{
         @apply text-sm text-secondary
     }
 
-    /* news */
-    #news{
-        @apply py-[125px]
+    /* berita */
+    #berita{
+        @apply py-[120px]
     }
 
-    #news .container{
+    #berita .container{
         @apply justify-center
     }
 
-    #news .title{
+    #berita .title{
         @apply text-center mb-[10px]
     }
 
-    #news .title h4{
+    #berita .title h4{
         @apply blueh4
     }
 
-    #news .title h2{
-        @apply title-b mb-8 lg:mb-[80px]
+    #berita .title h2{
+        @apply title-b mb-8 lg:mb-[60px]
     }
 
-    #news .card-box{
+    #berita .card-box{
         @apply flex flex-wrap gap-6 justify-center lg:justify-between
     }
 
-    #news .card{
+    #berita .card{
         @apply flex flex-col gap-2 lg:gap-6
     }
 
-    #news .line::before{
+    #berita .line::before{
         /* before */
         @apply flex content-[''] inline-block w-[39px] h-[2px] bg-[url('../assets/images/logo/line.svg')] mr-[14px] mt-5 bg-cover bg-no-repeat 
     }
 
-    #news .card h3{
+    #berita .card h3{
         @apply
         
         /* li */
         font-semibold text-[20px] leading-8 text-[#2F2C4A] lg:mb-2 lg:mb-6 font-inter
         md:w-[260px]
     }
-    #news .text a{
+    #berita .text a{
         @apply
         /* after */
         after:content-[''] after:inline-block after:w-[10px] after:h-[10px]  after:bg-[url('../assets/images/logo/arrowgray.svg')] after:ml-2 after:bg-cover after:bg-no-repeat
@@ -245,7 +245,7 @@
         /* span text */
         par-c
     }
-    #news .text a:hover{
+    #berita .text a:hover{
         @apply text-[#217BF4] after:bg-[url('../assets/images/logo/arrowblue.svg')]
     }
 
